@@ -1,0 +1,75 @@
+html{
+  font-size: 12px;
+
+}
+
+body{
+  background-color: rgba(40, 45, 53, 1);
+  font-family: "Goudy Old Style";
+  
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Center{
+
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+
+ 
+  }
+
+.Side{
+
+  background-color: rgb(202, 240, 248);
+  width: 32rem;
+  border-radius: 2rem;
+  
+  }
+
+
+main{
+  
+  width: 32rem;
+  background-color: rgba(40, 45, 53, 1);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  
+}
+
+.title{
+  color: rgb(202, 240, 248);
+  font-size: 2.3rem;
+  background-color: rgb(2, 62, 138);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+Input {
+  background-color: rgb(202, 240, 248);
+  color: rgb(3, 4, 94);
+}
+
+Input::placeholder {
+  color: rgb(3, 4, 94);
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+
+}
