@@ -28,25 +28,6 @@ export default function Button(props){
         cursor: "pointer",
       }   
 
-      const button2 = {
-        marginLeft: "4rem",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "1.3rem",
-        width: "1.3rem",
-        borderRadius: "0.3rem",
-        border: "1px solid rgb(0, 0, 0)",
-        boxShadow: "1px 1px 2px rgb(0, 0, 0)",
-        fontFamily: "Goudy Old Style",
-        fontSize: "2rem",
-        backgroundColor: "rgb(3, 4, 94)",
-        color: "rgb(202, 240, 248)",
-        fontWeight: "bold",
-        cursor: "pointer",
-      }   
-
-
 
     return(
 <div style={buttonContainer}>
